@@ -1,0 +1,64 @@
+.header {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    color: $secondary-color;
+
+    &__canvix {
+        display: flex;
+        margin-left: 10px;
+        text-decoration: none;
+
+        &_h4 {
+            margin-left: 10px;
+            color: $secondary-color;
+        }
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        &__link {
+            text-decoration: none;
+            color: $secondary-color;
+
+            &:hover {
+                &::after {
+                    transform: scaleX(1);
+                }
+            }
+
+            &::after {
+                content: "";
+                display: block;
+                border-top: 1px solid;
+                transform-origin: left;
+                transform: scaleX(0);
+                transition: transform 200ms ease-out;
+            }
+        }
+    }
+
+    &__get-in-touch-btn {
+        background-color: white;
+        color: $main-color;
+        border-radius: 23px;
+        padding: 8px 15px 8px 15px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+        transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+            opacity: 0.8;
+        }
+    }
+}
