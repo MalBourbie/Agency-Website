@@ -93,6 +93,18 @@
   height: 1038px;
   color: #ffffff;
 }
+.hero-section__ornament {
+  position: absolute;
+  height: 192px;
+  width: 183px;
+  top: 192px;
+  left: -10px;
+}
+.hero-section .hero-contenair {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+}
 .hero-section .business-growth {
   margin-top: 162px;
   max-width: 600px;
@@ -122,6 +134,34 @@
 }
 .hero-section .trusted-brands__bloc-img {
   display: flex;
+}
+.hero-section .circle {
+  position: relative;
+  height: 750px;
+  width: 750px;
+  margin: auto;
+}
+.hero-section .circle__rayon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-section .circle__rayon--1 {
+  height: 550px;
+  width: 550px;
+}
+.hero-section .circle__rayon--2 {
+  height: 650px;
+  width: 650px;
+}
+.hero-section .circle__rayon--3 {
+  height: 750px;
+  width: 750px;
+}
+.hero-section .circle__rayon--4 {
+  height: 850px;
+  width: 850px;
 }
 
 .button, .header__get-in-touch-btn, .hero-section .business-growth__cta {

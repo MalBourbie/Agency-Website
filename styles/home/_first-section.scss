@@ -3,6 +3,20 @@
     height: 1038px;
     color: $secondary-color;
 
+    &__ornament {
+        position: absolute;
+        height: 192px;
+        width: 183px;
+        top: 192px;
+        left: -10px;
+    }
+
+    .hero-contenair {
+        display: flex;
+        max-width: 1400px;
+        margin: auto;
+    }
+
     .business-growth {
         margin-top: 162px;
         max-width: 600px;
@@ -38,6 +52,40 @@
 
         &__bloc-img {
             display: flex;
+        }
+    }
+
+    .circle {
+        position: relative;
+        height: 750px;
+        width: 750px;
+        margin: auto;
+
+        &__rayon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            &--1 {
+                height: 550px;
+                width: 550px;
+            }
+
+            &--2 {
+                height: 650px;
+                width: 650px;
+            }
+
+            &--3 {
+                height: 750px;
+                width: 750px;
+            }
+
+            &--4 {
+                height: 850px;
+                width: 850px;
+            }
         }
     }
 }
