@@ -1,4 +1,43 @@
-.first-section {
-    background-color: lightblue;
-    height: 900px;
+.hero-section {
+    background-color: $secondary-button-background-color;
+    height: 1038px;
+    color: $secondary-color;
+
+    .business-growth {
+        margin-top: 162px;
+        max-width: 600px;
+
+        &__heading {
+            margin-bottom: 24px;
+            &_span {
+                color: $important-text-color;
+            }
+        }
+
+        &__cta {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            border-radius: 23px;
+            padding: 10px 20px 10px 10px;
+            color: $main-color;
+            margin-top: 32px;
+            background-color: $secondary-color;
+            gap: 10px;
+
+            @extend .button;
+        }
+    }
+
+    .trusted-brands {
+        margin-top: 180px;
+
+        &__heading {
+            color: $important-text-color;
+        }
+
+        &__bloc-img {
+            display: flex;
+        }
+    }
 }
