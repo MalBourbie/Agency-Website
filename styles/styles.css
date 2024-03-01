@@ -90,7 +90,7 @@
 
 .hero-section {
   background-color: #121212;
-  height: 1038px;
+  height: 1000px;
   color: #ffffff;
 }
 .hero-section__ornament {
@@ -162,6 +162,53 @@
 .hero-section .circle__rayon--4 {
   height: 850px;
   width: 850px;
+}
+
+.services-section {
+  padding: 100px 0 100px 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+.services-section__our-services {
+  margin: auto;
+  color: #64ccc5;
+}
+.services-section__high-impact {
+  max-width: 700px;
+  margin: 24px auto auto auto;
+}
+.services-section .services-case {
+  display: grid;
+  grid: 1fr 1fr/1fr 1fr 1fr;
+  gap: 80px 66px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+}
+.services-section .services-case .case-contenair {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  padding: 45px 45px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  transition: transform 200ms ease-in-out;
+}
+.services-section .services-case .case-contenair:hover {
+  background-color: #0c0c0c;
+  color: #ffffff;
+  transform: translateY(-5px) translateX(5px);
+  box-shadow: -5.1px 5.1px 2.2px rgba(0, 0, 0, 0.037), -8.3px 8.3px 5.3px rgba(0, 0, 0, 0.053), -10.8px 10.8px 10px rgba(0, 0, 0, 0.065), -13.6px 13.6px 17.9px rgba(0, 0, 0, 0.077), -17.8px 17.8px 33.4px rgba(0, 0, 0, 0.093), -30px 30px 80px rgba(0, 0, 0, 0.13);
+}
+.services-section .services-case .case-contenair__icon {
+  height: 80px;
+  width: 80px;
+}
+.services-section .services-case .case-contenair__title {
+  margin-top: 62px;
+  margin-bottom: 15px;
+  font-size: 25px;
 }
 
 .button, .header__get-in-touch-btn, .hero-section .business-growth__cta {
